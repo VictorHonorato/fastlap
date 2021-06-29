@@ -11,15 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mainMenu.unity
     guid: 123b1eecf6d93934f95c151adee8ab8b
-  - enabled: 1
-    path: Assets/Scenes/ModeSelection.unity
-    guid: 6bba21093334b35459acb431f80e5240
-  - enabled: 1
-    path: Assets/Scenes/timeChallenge.unity
-    guid: c30abf9184ab66546979ec3063525ac4
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/bestTimeAttack.unity
     guid: 2284f81fb1fb23643bd920c76a703b35
-  - enabled: 1
-    path: Assets/Scenes/bestTimeAttackNew.unity
-    guid: a2238bf5a35ee3f48b22e05d58058ff1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}
