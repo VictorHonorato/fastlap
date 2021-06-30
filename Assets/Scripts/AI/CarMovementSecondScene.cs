@@ -59,6 +59,13 @@ public class CarMovementSecondScene : MonoBehaviour {
 				leftPointLight.intensity = 0f;
 				rightPointLight.intensity = 0f;
 			}
+
+		}else if(currentSpeed < mSpeed && rbody.velocity.magnitude <= mMagnitude){	
+			for(int i = 0; i < wcTorqueLength; i--){
+				wc[i].motorTorque = CrossPlatformInputManager.GetAxis("Vertical") * mTorque;
+				leftPointLight.intensity = 0f;
+				rightPointLight.intensity = 0f;
+			}
 		}else{
 			currentSpeed = mSpeed;
 		}

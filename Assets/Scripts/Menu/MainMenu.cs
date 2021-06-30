@@ -48,6 +48,9 @@ public class MainMenu : MonoBehaviour {
 	}
 
 	public void NextScene(){
-		SceneManager.LoadScene("ModeSelection");
+		SceneManager.LoadScene("bestTimeAttack");
+	}
+	public void Quit(){
+		Application.Quit();
 	}
 }

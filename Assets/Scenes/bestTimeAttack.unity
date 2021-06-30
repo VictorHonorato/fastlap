@@ -6071,6 +6071,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114392947961057234, guid: 6df164fde7dd7bb4daefe11b1ea13f20,
         type: 3}
+      propertyPath: m_Text
+      value: 'Jogador:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114392947961057234, guid: 6df164fde7dd7bb4daefe11b1ea13f20,
+        type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
@@ -6210,6 +6215,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 222207131718726042, guid: 6df164fde7dd7bb4daefe11b1ea13f20,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224022382842250892, guid: 6df164fde7dd7bb4daefe11b1ea13f20,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6273,7 +6283,7 @@ PrefabInstance:
     - target: {fileID: 224167328224101072, guid: 6df164fde7dd7bb4daefe11b1ea13f20,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -30.000015
+      value: -3.600006
       objectReference: {fileID: 0}
     - target: {fileID: 224208411702599716, guid: 6df164fde7dd7bb4daefe11b1ea13f20,
         type: 3}
