@@ -23,6 +23,8 @@ ScriptsOnlyBuild:
     - mappingWheelColliders
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -87,55 +89,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1538}
-    - Class: 114
       Script: {instanceID: 1540}
     - Class: 114
       Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 2024}
+      Script: {instanceID: 1544}
+    - Class: 114
+      Script: {instanceID: 2026}
     - Class: 114
       Script: {instanceID: 2286}
     - Class: 114
       Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2638}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2696}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2826}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 2908}
+      Script: {instanceID: 2904}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3048}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3558}
     - Class: 114
-      Script: {instanceID: 3870}
+      Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 3928}
+      Script: {instanceID: 3916}
     - Class: 114
-      Script: {instanceID: 4324}
+      Script: {instanceID: 4310}
     - Class: 114
-      Script: {instanceID: 4498}
+      Script: {instanceID: 4370}
     - Class: 114
-      Script: {instanceID: 4748}
+      Script: {instanceID: 4484}
     - Class: 114
-      Script: {instanceID: 4800}
+      Script: {instanceID: 4732}
+    - Class: 114
+      Script: {instanceID: 4784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -208,23 +212,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1538}
-    - Class: 114
       Script: {instanceID: 1540}
     - Class: 114
       Script: {instanceID: 1542}
     - Class: 114
+      Script: {instanceID: 1544}
+    - Class: 114
       Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2638}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2826}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 4384}
+      Script: {instanceID: 4370}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -458,12 +462,6 @@ ScriptsOnlyBuild:
     className: Suspension
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: Displace
-  - hash:
-      serializedVersion: 2
       Hash: af9f1c34498e62a966e0e4e2d1ddb4bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -510,12 +508,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
-  - hash:
-      serializedVersion: 2
-      Hash: 14d684e5eb706041b258044f3a2d3861
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: PlanarReflection
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -570,12 +562,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: carControlManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: WaterBasic
   - hash:
       serializedVersion: 2
       Hash: 7c4d61ba679beaa5d71821c8c9d31078
@@ -674,12 +660,6 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 698812e8d71fd38ac0f66f7a70a25fb5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: WaterTile
-  - hash:
-      serializedVersion: 2
       Hash: d0d3c1a8ceb78a58d5d3de5f6467b9a2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -738,12 +718,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: 97a580c59cad3623a01bbf5fb2d7fa93
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: SpecularLighting
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -834,12 +808,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
     className: TrackedPoseDriver
-  - hash:
-      serializedVersion: 2
-      Hash: 357dc9516c87a9d2caf5c0f50c455e56
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: WaterBase
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -948,12 +916,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: GerstnerDisplace
   - hash:
       serializedVersion: 2
       Hash: 3743cc8bb44f369946169885931dcede
@@ -1106,12 +1068,6 @@ ScriptsOnlyBuild:
     className: Path
   - hash:
       serializedVersion: 2
-      Hash: c239250f2f7641ce897064c7bd4173b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Water
-    className: Water
-  - hash:
-      serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: Unity.Analytics.DataPrivacy.dll
     namespaceName: UnityEngine.Analytics
@@ -1192,4 +1148,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/mainMenu.unity
   - Assets/Scenes/bestTimeAttack.unity
-  playerPath: C:/Users/victo/Desktop/Racing Demo.exe
+  playerPath: C:/Users/victo/Desktop/FastLap Racing.exe
